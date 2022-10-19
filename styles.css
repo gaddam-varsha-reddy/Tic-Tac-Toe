@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    font-family: Georgia;
 }
 header{
     padding: 10px 5px 10px 5px;
@@ -15,7 +16,7 @@ header{
 .grid-container{
     margin-top: 20px;
     display: grid;
-    align-items:center;
+    /* align-items:center; */
     grid-template-columns: auto auto auto;
     padding: 10px;
     
@@ -26,17 +27,20 @@ header{
     min-width: 100px;
     text-align: center;
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex-container{
     display:flex;
     margin-top: 50px;
 }
 .flex-child{
+    padding: 0%;
     justify-content: center;
     color:white;
+    min-width: 140px;
 }
 .flex-child:first-child{
-    margin-right: 200px;
+    margin-right: 100px;
 }
 .border-right{
     border-right: 2px solid blue;
@@ -53,9 +57,20 @@ header{
     font-size: 25px;
 }
 .playerImage{
-    height:40px;
-    width:40px;
+    height:50px;
+    width:50px;
 }
 .border-scoretable{
    border:1px solid blue;
+   text-align: center;
 }
+.highlight{
+    color: white;
+    box-shadow: 0 0 15px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
