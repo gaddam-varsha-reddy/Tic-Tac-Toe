@@ -6,7 +6,7 @@ player1Turn=document.querySelector(".Player1Turn");
 player2Turn=document.querySelector(".Player2Turn");
 playAgain=document.querySelector(".playAgain");
 reStart=document.querySelector(".reStart");
-gameMessage=document.querySelector("h4");
+gameMessage=document.querySelector("h3");
 score1El=document.querySelector("#score-1");
 score2El=document.querySelector("#score-2");
 player1Turn.classList.add("highlight");
@@ -110,6 +110,22 @@ function winningCheck(){
     }
     else{
     } 
+}
+
+function WinningConditions(Symbol){
+    var b0,b1,b2,b3,b4,b5,b6,b7,b8;
+    //storing values in grid-items to a variable.
+    b0=btnArr[0].textContent;
+    b1=btnArr[1].textContent;
+    b2=btnArr[2].textContent;
+    b3=btnArr[3].textContent;
+    b4=btnArr[4].textContent;
+    b5=btnArr[5].textContent;
+    b6=btnArr[6].textContent;
+    b7=btnArr[7].textContent;
+    b8=btnArr[8].textContent;
+
+
 }
 
 function PlayerWon(playerno){

@@ -4,6 +4,7 @@ body{
 }
 header{
     padding: 10px 5px 10px 5px;
+    margin-top: 15px;
 }
 .gamename{
     font-weight: 500;
@@ -12,9 +13,9 @@ header{
 #message{
     text-align: center;
     color:white;
-}
+    }
 .grid-container{
-    margin-top: 20px;
+    margin-top: 50px;
     display: grid;
     /* align-items:center; */
     grid-template-columns: auto auto auto;
@@ -29,24 +30,30 @@ header{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
-.flex-container{
+/* .flex-container{
     display:flex;
     margin-top: 50px;
-}
+} */
 .flex-child{
     padding: 0%;
+    margin: auto;
+    font-size: large;
+    align-items: center;
     justify-content: center;
     color:white;
-    min-width: 140px;
+    /* height: 200px; */
+    /* min-width: 100px;
+    max-width: 250px; */
+    width:200px;
 }
-.flex-child:first-child{
+/* .flex-child:first-child{
     margin-right: 100px;
-}
+} */
 .border-right{
-    border-right: 2px solid blue;
+    border-right: 2px solid #33b5e5;
 }
-.border-bottom{
-    /* border: 2px solid blue; */
+.bottom-border{
+    border-bottom: 2px solid #33b5e5; 
 }
 #score-1{
     text-align: center;
@@ -57,16 +64,16 @@ header{
     font-size: 25px;
 }
 .playerImage{
-    height:50px;
-    width:50px;
+    height:60px;
+    width:60px;
 }
 .border-scoretable{
-   border:1px solid blue;
+   border:1px solid #33b5e5;
    text-align: center;
 }
 .highlight{
     color: white;
-    box-shadow: 0 0 15px;
+    box-shadow: 0 0 25px;
 }
 .box{
     display: flex;
